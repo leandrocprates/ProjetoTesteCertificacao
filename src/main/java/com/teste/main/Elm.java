@@ -11,7 +11,7 @@ package com.teste.main;
  */
 
 class Tree2 {
-          private  static String tree = "tree "; // como e private nao pode ser acessado por outra classe assim = Tree2.tree . 
+            private static String tree = "tree "; // como e private nao pode ser acessado por outra classe assim = Tree2.tree . 
           String getTree() { 
                   return tree; 
           }

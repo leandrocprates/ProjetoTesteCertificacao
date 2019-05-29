@@ -13,8 +13,8 @@ package com.teste.main;
 
 public class Lockdown implements Runnable {
           public static void main(String[] args) {
-               new Thread(new Lockdown()).start();
-               new Thread(new Lockdown()).start();
+               new Thread(new Lockdown()).start();//2 objetos diferentes , execucoes paralela dos dois 
+               new Thread(new Lockdown()).start();// ordem de saida indefinida
           }
           public void run() { locked(Thread.currentThread().getId()); }
           synchronized void locked(long id) {

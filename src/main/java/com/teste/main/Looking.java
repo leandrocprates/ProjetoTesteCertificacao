@@ -10,7 +10,7 @@ import java.util.*;
 class Looking {
     public static void main(String[] args) {
          String[] sa = {"d", "c", "a", "b" };
-         int x = Arrays.binarySearch(sa, "b");
+         int x = Arrays.binarySearch(sa, "b"); // precisa estar ordenado para binarySearch funcionar 
          Arrays.sort(sa);
          int y = Arrays.binarySearch(sa, "b");
          System.out.println(x + " " + y);

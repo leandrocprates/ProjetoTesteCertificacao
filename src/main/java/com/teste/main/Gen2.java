@@ -18,11 +18,11 @@ public class Gen2 {
             so aceita se for do mesmo tipo <Animal> ou Generico <> 
             */
 
-          TreeSet t = new TreeSet(); // pode enviar 
+          TreeSet t = new TreeSet(); // pode enviar aceita tipo generico  
           //TreeSet<Dog> t = new TreeSet<Dog>();
           //TreeSet<? extends Animal> t = new TreeSet<Dog>(); // aceita, qualquer class que extend Animal, funcao nao aceita 
           //TreeSet<Animal> t = new TreeSet<Dog>(); // nao funciona tipos incompativeis 
-          //TreeSet<Animal> t = new TreeSet<Animal>();               
+          //TreeSet<Animal> t = new TreeSet<Animal>();  // esse funciona mesmo tipo recebido na funcao             
 
             go(t);
         }

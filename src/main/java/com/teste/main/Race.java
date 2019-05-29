@@ -18,7 +18,7 @@ class FWD {
 
 class Subaru extends FWD {
      int doMud(int... y) { return 2; } // ultima escolha sempre do compilador 
-     int doMud(int z) { return 3; } // sobreescrevendo a funcao 
+     int doMud(int z) { return 3; } // sobreescrevendo a funcao , overload 
 }
 
 public class Race {

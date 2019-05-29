@@ -29,6 +29,6 @@ class Parser extends Utils {
 
 class Utils {
      int getInt(String arg) throws Exception { 
-         return 42; 
+         return 49; 
      }
 }

@@ -19,5 +19,21 @@ public  class CopyArray {
                 int[] y2; 
                 y2 = x;
         
+                System.out.println("y2------");
+                for (int v: y2){
+                    System.out.println(v);
+                }
+
+                System.out.println("y1------");
+                for (int v: y1){
+                    System.out.println(v);
+                }
+                
+                System.out.println("x------");
+                for (int v: x){
+                    System.out.println(v);
+                }
+                
+                
           }
      }

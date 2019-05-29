@@ -5,6 +5,8 @@
  */
 package com.teste.main;
 
+import java.io.IOException;
+
 /**
  *
  * @author lprates

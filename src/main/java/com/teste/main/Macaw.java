@@ -13,7 +13,7 @@ class Bird2 {
         protected void talk() { System.out.println("Bird2 - chirp "); }
    }
 
-public class Macaw extends Bird2 {
+public class Macaw extends Bird2 { // polimorfismo funciona 
      public static void main(String [] args) {
             Bird2 [] birds = {new Bird2(), new Macaw()};
             for( Bird2 b : birds)

@@ -21,6 +21,7 @@ public class DumpMap {
          HashMap h = new HashMap();
          h.put("a","aa"); 
          h.put("b","bb"); 
+         h.put("d","dd");
          h.put("c","cc");
          
           Set ks = h.keySet();

@@ -18,7 +18,7 @@ public class Pins implements Runnable {
              Thread t2 = new Thread(p);
              t1.start();
              t2.start();
-             t1.start();
+             t1.start(); // nao pode dar start 2 vezes na mesma thread 
         }
         public void run() { System.out.print("x"); }
 }
