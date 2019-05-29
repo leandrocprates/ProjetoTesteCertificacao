@@ -17,8 +17,12 @@ enum Animals {
 }
 
 public class Animasls {
-    static Animals a;
+    static Animals a = Animals.DOG;
     public static void main(String [] args) {
        System.out.println(a.DOG.sound  + " " + Animals.FISH.sound);
+       System.out.println(a.name() + " " + a.toString());
+       System.out.println(Animals.DOG + " " + Animals.FISH );
+       
+       
     }
 }

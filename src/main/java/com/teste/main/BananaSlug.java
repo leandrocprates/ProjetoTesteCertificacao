@@ -10,15 +10,18 @@ package com.teste.main;
  * @author lprates
  */
   class Slug {
-        static void crawl() { System.out.print("crawling "); }
+         static void crawl() { System.out.print("crawling "); }
 }
 public class BananaSlug extends Slug {
      public static void main(String[] args) {
            Slug[] sa = { new Slug(), new BananaSlug() };
            for(Slug s: sa){
-               //s.crawl(); //This is because polymorphism does not apply to static methods.
-                crawl();
+               s.crawl(); //This is because polymorphism does not apply to static methods.
+                //crawl();
            }
       }
-      static void crawl() { System.out.print("shuffling "); }
+       static void crawl() { System.out.print("shuffling "); }
+       
+       // sem o static nos metodos crawl ai sim funciona o polimorfismo 
+       
 }

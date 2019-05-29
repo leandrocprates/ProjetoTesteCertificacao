@@ -24,7 +24,7 @@ public class Buddy {
                                  System.out.print(s + ".");
                             }
                
-               System.out.println();
+               System.out.println("Contador i : "+ i);
                
             }
               

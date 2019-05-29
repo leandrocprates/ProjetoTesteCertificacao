@@ -24,10 +24,10 @@ class Dog2 extends Animal2 {
             return new Dog2(); 
         }
         
-//        Animal2 getOne() {
-//            System.out.println("Dog2");
-//            return new Dog2(); 
-//        }    
+        //Animal2 getOne() {
+        //    System.out.println("Dog2");
+        //    return new Dog2(); 
+        //}    
 
 }
      

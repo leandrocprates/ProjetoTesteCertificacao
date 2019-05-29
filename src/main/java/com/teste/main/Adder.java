@@ -11,23 +11,19 @@ package com.teste.main;
  */
 
 public  class Adder {
-          //static Short s1,s2; // nao funciona pois nao e inicializado por padrao 
-          static short s1,s2; // fubnciona
+          static Short s1,s2; // nao funciona pois nao e inicializado por padrao inicializa com null, tipo referencia 
+          //static short s1,s2; // funciona inicializa com 0 , tipo primitivo 
           
           public static void main(String [] args) {
               
-//              Adder ad = new Adder(); 
-//              ad.s1 = 4 ; 
-//              System.out.println( ad.s1  + " + " + ad.s2 ) ;  
-//              
+              Adder ad = new Adder(); 
+              ad.s1 = 4 ; 
+              System.out.println( ad.s1  + " + " + ad.s2 ) ;  
               
-               int x;
-               s1 = 4;
-               x = s1 + s2;
-               
-               
-               
-               
-               System.out.print(x);
+              
+               //int x;
+               //s1 = 4;
+               //x = s1 + s2;
+               //System.out.print(x);
           }
      }
