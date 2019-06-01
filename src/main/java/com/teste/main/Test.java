@@ -26,7 +26,7 @@ public class Test {
      
      
     //public static void getAuthor(List<?> list) { }             // is the same as  <? extends Object> 
-    public static void getAuthor(List<? extends Books> list) { } // sub tipo de Books  
+    public static void getAuthor(List<? extends Books> list) { } // sub tipo de Books , qualquer classe que extenda Books
 
      
 }

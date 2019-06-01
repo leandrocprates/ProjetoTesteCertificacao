@@ -17,6 +17,8 @@ class UtilityAbstract {
 //                new Utility().go(x);
 //                System.out.println(x);
 //           }
+    
+            //nao da para chamar esse metodo em outra classe , somente uma funcao interna 
            private void go(int x) {
                 x += 5;
                 System.out.println(x);

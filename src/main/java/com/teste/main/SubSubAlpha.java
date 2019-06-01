@@ -15,6 +15,7 @@ class Alpha {
     protected Alpha() { s += "alpha "; }
 }
 
+//classe nao é chamada 
 class SubAlpha extends Alpha {
     private SubAlpha() { s += "sub "; }
 }
@@ -30,6 +31,11 @@ public class SubSubAlpha extends Alpha {
     public static void main(String[] args) {
         new SubSubAlpha();
         System.out.println(s);
+        
+        s = "teste" ; 
+        
+        System.out.println(s);
+        
     }
     
 }
